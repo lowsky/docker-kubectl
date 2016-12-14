@@ -1,5 +1,5 @@
-FROM wernight/docker-kubectl
+FROM wernight/kubectl
 
 # add gettext for running envsubst
 RUN set -x && \
-    apk add --no-cache gettext 
+    apk add --update --no-cache gettext 
