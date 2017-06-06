@@ -1,4 +1,4 @@
-FROM wernight/kubectl:1.3.6
+FROM wernight/kubectl:1.6.4
 
 # add gettext for running envsubst
 USER root
