@@ -27,7 +27,8 @@ node('docker') {
     //    `$K8S-DOCKER-IMAGE`   by   `skylo/kubectl:1.6.1`
     sh 'cat k8s-resources/deployment.yml | envsubst | kubectl apply -'
  }
-}```
+}
+```
 
 # Supported tags and respective `Dockerfile` links
 
